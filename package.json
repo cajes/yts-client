@@ -6,7 +6,8 @@
   "scripts": {
     "serve": "nuxt",
     "start": "nuxt start",
-    "gen": "nuxt generate"
+    "gen": "nuxt generate",
+    "build": "nuxt build"
   },
   "keywords": [],
   "author": "",
