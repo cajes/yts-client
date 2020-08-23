@@ -1,0 +1,28 @@
+
+@import 'normalize.css';
+@import 'material-design-icons/iconfont/material-icons.css';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: Arimo,Arial,Helvetica,lucida grande,sans-serif;
+  font-size: 16px;
+
+  background: #1d1d1d;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #6ac045;
+}
+
+a:hover {
+  color: #85f057;
+}
+
+a:active {
+  color: #539637;
+}
