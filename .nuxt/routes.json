@@ -1,0 +1,30 @@
+[
+  {
+    "name": "browse-movies",
+    "path": "/browse-movies",
+    "component": "/home/rom/Documents/web_projects/yts-client/src/pages/browse-movies/index.vue",
+    "chunkName": "pages/browse-movies/index",
+    "_name": "_363c2719"
+  },
+  {
+    "name": "trending-movies",
+    "path": "/trending-movies",
+    "component": "/home/rom/Documents/web_projects/yts-client/src/pages/trending-movies/index.vue",
+    "chunkName": "pages/trending-movies/index",
+    "_name": "_2984c844"
+  },
+  {
+    "name": "movies-id-name",
+    "path": "/movies/:id?/:name?",
+    "component": "/home/rom/Documents/web_projects/yts-client/src/pages/movies/_id/_name.vue",
+    "chunkName": "pages/movies/_id/_name",
+    "_name": "_0e03e6ee"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/rom/Documents/web_projects/yts-client/src/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_db354ffc"
+  }
+]
