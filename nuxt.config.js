@@ -15,12 +15,11 @@ export default {
 
   server: {
     port: 8000,
-    host: '192.168.0.113',
+    host: '0.0.0.0',
     timing: false
   },
 
   srcDir: 'src/',
-
 
   publicRuntimeConfig: {
     YTS_API: 'https://yts.mx/api/v2/endpoint'
@@ -29,6 +28,8 @@ export default {
   privateRuntimeConfig: {
 
   },
+
+  telemetry: false,
 
   ...modulesConfig
 }

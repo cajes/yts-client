@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="yts-client-layout">
     <AppHeader />
     <nuxt />
     <AppFooter />
@@ -7,10 +7,8 @@
 </template>
 
 <script>
-import AppHeader from '@/components/AppHeader.vue';
-import AppFooter from '@/components/AppFooter.vue';
-
-import Vue from 'vue';
+import AppHeader from '@/components/AppHeader';
+import AppFooter from '@/components/AppFooter';
 
 const nuxtOptions = {}
 
@@ -25,5 +23,11 @@ export default {
 </script>
 
 <style>
-  @import '@/assets/styles/root.styles.scss';
+@import '@/assets/styles/root.styles.scss';
+
+.yts-client-layout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
 </style>

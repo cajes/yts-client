@@ -27,4 +27,4 @@ class Param {
   }
 }
 
-export default (context, inject) => inject('search_param', Param)
+export default (context, inject) => inject('search_param', Param);

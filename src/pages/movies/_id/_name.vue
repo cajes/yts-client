@@ -121,6 +121,8 @@ const nuxtFunctions = {
 
     const id = route.params.id
 
+    if (!id) context.redirect('/404');
+
     let res = await context.$axios.get(api.replace(/endpoint/, `movie_details.json?movie_id=${id}`))
     let data = {}
 
